@@ -1,0 +1,15 @@
+This is the swf parser used in 
+
+1. F2C - SWF to HTML5 Canvas converter on Mac App Store.
+   http://rintarou.dyndns.org/f2c/
+2. VisualSWF - SWF File Format Visualization on Mac
+   http://rintarou.dyndns.org/2011/02/09/visualswf-1-0/
+3. SWFVisualizer - SWF File Format Visualization with Flash
+   http://rintarou.dyndns.org/swfvisualizer/
+
+Writen from scratch in C++ and depends on libz only.
+Parsed result was the VObject tree that could be easily extended for your own requirement.
+
+The code is under GPL or another optional commercial license if you prefer.
+
+Contact: shuho.chou@gmail.com
