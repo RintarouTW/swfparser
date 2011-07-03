@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DD76F650486A84900D96B5E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		AC49FB90120BEABE00FE2104 /* ActionHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC49FB8F120BEABE00FE2104 /* ActionHandler.cpp */; };
+		AC95C2FE11A54C90002309F7 /* Stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC95C2FB11A54537002309F7 /* Stream.cpp */; };
+		AC95CC3B11AFDC0C002309F7 /* VObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC95CBF111AEFFD3002309F7 /* VObject.cpp */; };
+		AC95CD6D11B01673002309F7 /* VObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC95CBF111AEFFD3002309F7 /* VObject.cpp */; };
+		ACAC23E0119EBFD600A2300D /* SWFStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACAC23DC119EBFD600A2300D /* SWFStream.cpp */; };
+		ACAC23E1119EBFD600A2300D /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACAC23DE119EBFD600A2300D /* Util.cpp */; };
+		ACAC2401119F644700A2300D /* SWFParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACAC2400119F644700A2300D /* SWFParser.cpp */; };
+		ACFBA9A5119F8B340001782F /* TagHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACAC241F119F7C7B00A2300D /* TagHandler.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F690486A84900D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8DD76F6C0486A84900D96B5E /* swfparser */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swfparser; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC49FB82120B85B300FE2104 /* ActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionHandler.h; sourceTree = "<group>"; };
+		AC49FB8F120BEABE00FE2104 /* ActionHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionHandler.cpp; sourceTree = "<group>"; };
+		AC49FBB3120CB73500FE2104 /* ActionDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionDefine.h; sourceTree = "<group>"; };
+		AC95C2FA11A54537002309F7 /* Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Stream.h; sourceTree = "<group>"; };
+		AC95C2FB11A54537002309F7 /* Stream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Stream.cpp; sourceTree = "<group>"; };
+		AC95C9ED11ADD6E4002309F7 /* jsonreader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jsonreader.cpp; path = libs/wxJSON/jsonreader.cpp; sourceTree = "<group>"; };
+		AC95C9EE11ADD6E4002309F7 /* jsonval.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jsonval.cpp; path = libs/wxJSON/jsonval.cpp; sourceTree = "<group>"; };
+		AC95C9EF11ADD6E4002309F7 /* jsonwriter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = jsonwriter.cpp; path = libs/wxJSON/jsonwriter.cpp; sourceTree = "<group>"; };
+		AC95CA9D11AE7685002309F7 /* TagDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagDefine.h; sourceTree = "<group>"; };
+		AC95CB8911AED6B5002309F7 /* json.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = json.h; path = include/json/json.h; sourceTree = "<group>"; };
+		AC95CB8C11AED6F2002309F7 /* json_reader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_reader.cpp; path = libs/lib_json/json_reader.cpp; sourceTree = "<group>"; };
+		AC95CB8D11AED6F2002309F7 /* json_value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_value.cpp; path = libs/lib_json/json_value.cpp; sourceTree = "<group>"; };
+		AC95CB8E11AED6F2002309F7 /* json_writer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = json_writer.cpp; path = libs/lib_json/json_writer.cpp; sourceTree = "<group>"; };
+		AC95CBB511AED982002309F7 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = reader.h; path = include/json/reader.h; sourceTree = "<group>"; };
+		AC95CBB611AED982002309F7 /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = value.h; path = include/json/value.h; sourceTree = "<group>"; };
+		AC95CBB711AED982002309F7 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = writer.h; path = include/json/writer.h; sourceTree = "<group>"; };
+		AC95CBF011AEFFD3002309F7 /* VObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VObject.h; sourceTree = "<group>"; };
+		AC95CBF111AEFFD3002309F7 /* VObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VObject.cpp; sourceTree = "<group>"; };
+		AC95CC3611AFDBC8002309F7 /* objtest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = objtest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAC23DB119EBFD600A2300D /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		ACAC23DC119EBFD600A2300D /* SWFStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SWFStream.cpp; sourceTree = "<group>"; };
+		ACAC23DD119EBFD600A2300D /* SWFStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWFStream.h; sourceTree = "<group>"; };
+		ACAC23DE119EBFD600A2300D /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Util.cpp; sourceTree = "<group>"; };
+		ACAC23DF119EBFD600A2300D /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		ACAC23FF119F644700A2300D /* SWFParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWFParser.h; sourceTree = "<group>"; };
+		ACAC2400119F644700A2300D /* SWFParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SWFParser.cpp; sourceTree = "<group>"; };
+		ACAC241E119F7C7B00A2300D /* TagHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagHandler.h; sourceTree = "<group>"; };
+		ACAC241F119F7C7B00A2300D /* TagHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TagHandler.cpp; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
+		ACF7D38111B6E5B5009C3B9C /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76F660486A84900D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC95CC3411AFDBC8002309F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* swfparser */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859E8C029090F304C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = swfparser;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AC49FBB3120CB73500FE2104 /* ActionDefine.h */,
+				AC49FB82120B85B300FE2104 /* ActionHandler.h */,
+				AC49FB8F120BEABE00FE2104 /* ActionHandler.cpp */,
+				AC95CB8A11AED6BF002309F7 /* libs */,
+				AC95CB8511AED683002309F7 /* includes */,
+				ACAC23DB119EBFD600A2300D /* common.h */,
+				AC95CBF011AEFFD3002309F7 /* VObject.h */,
+				AC95CBF111AEFFD3002309F7 /* VObject.cpp */,
+				ACAC23DF119EBFD600A2300D /* Util.h */,
+				ACAC23DE119EBFD600A2300D /* Util.cpp */,
+				AC95C2FA11A54537002309F7 /* Stream.h */,
+				AC95C2FB11A54537002309F7 /* Stream.cpp */,
+				ACAC23DD119EBFD600A2300D /* SWFStream.h */,
+				ACAC23DC119EBFD600A2300D /* SWFStream.cpp */,
+				ACAC23FF119F644700A2300D /* SWFParser.h */,
+				ACAC2400119F644700A2300D /* SWFParser.cpp */,
+				ACF7D38111B6E5B5009C3B9C /* debug.h */,
+				08FB7796FE84155DC02AAC07 /* main.cpp */,
+				ACAC241E119F7C7B00A2300D /* TagHandler.h */,
+				ACAC241F119F7C7B00A2300D /* TagHandler.cpp */,
+				AC95CA9D11AE7685002309F7 /* TagDefine.h */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76F6C0486A84900D96B5E /* swfparser */,
+				AC95CC3611AFDBC8002309F7 /* objtest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC95C9E811ADD68F002309F7 /* wxJSON */ = {
+			isa = PBXGroup;
+			children = (
+				AC95C9ED11ADD6E4002309F7 /* jsonreader.cpp */,
+				AC95C9EE11ADD6E4002309F7 /* jsonval.cpp */,
+				AC95C9EF11ADD6E4002309F7 /* jsonwriter.cpp */,
+			);
+			name = wxJSON;
+			sourceTree = "<group>";
+		};
+		AC95CB8511AED683002309F7 /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				AC95CBB811AED987002309F7 /* json */,
+			);
+			name = includes;
+			sourceTree = "<group>";
+		};
+		AC95CB8A11AED6BF002309F7 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				AC95CB8B11AED6CE002309F7 /* jsoncpp */,
+				AC95C9E811ADD68F002309F7 /* wxJSON */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		AC95CB8B11AED6CE002309F7 /* jsoncpp */ = {
+			isa = PBXGroup;
+			children = (
+				AC95CB8C11AED6F2002309F7 /* json_reader.cpp */,
+				AC95CB8D11AED6F2002309F7 /* json_value.cpp */,
+				AC95CB8E11AED6F2002309F7 /* json_writer.cpp */,
+			);
+			name = jsoncpp;
+			sourceTree = "<group>";
+		};
+		AC95CBB811AED987002309F7 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				AC95CBB511AED982002309F7 /* reader.h */,
+				AC95CBB611AED982002309F7 /* value.h */,
+				AC95CBB711AED982002309F7 /* writer.h */,
+				AC95CB8911AED6B5002309F7 /* json.h */,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		C6859E8C029090F304C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76F620486A84900D96B5E /* swfparser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "swfparser" */;
+			buildPhases = (
+				8DD76F640486A84900D96B5E /* Sources */,
+				8DD76F660486A84900D96B5E /* Frameworks */,
+				8DD76F690486A84900D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swfparser;
+			productInstallPath = "$(HOME)/bin";
+			productName = swfparser;
+			productReference = 8DD76F6C0486A84900D96B5E /* swfparser */;
+			productType = "com.apple.product-type.tool";
+		};
+		AC95CC3511AFDBC8002309F7 /* objtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC95CC3A11AFDBE7002309F7 /* Build configuration list for PBXNativeTarget "objtest" */;
+			buildPhases = (
+				AC95CC3311AFDBC8002309F7 /* Sources */,
+				AC95CC3411AFDBC8002309F7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = objtest;
+			productName = objtest;
+			productReference = AC95CC3611AFDBC8002309F7 /* objtest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "http://rintarou.dyndns.org";
+			};
+			buildConfigurationList = 1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "swfparser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* swfparser */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F620486A84900D96B5E /* swfparser */,
+				AC95CC3511AFDBC8002309F7 /* objtest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76F640486A84900D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACAC23E1119EBFD600A2300D /* Util.cpp in Sources */,
+				AC95C2FE11A54C90002309F7 /* Stream.cpp in Sources */,
+				ACAC23E0119EBFD600A2300D /* SWFStream.cpp in Sources */,
+				ACAC2401119F644700A2300D /* SWFParser.cpp in Sources */,
+				ACFBA9A5119F8B340001782F /* TagHandler.cpp in Sources */,
+				AC95CD6D11B01673002309F7 /* VObject.cpp in Sources */,
+				8DD76F650486A84900D96B5E /* main.cpp in Sources */,
+				AC49FB90120BEABE00FE2104 /* ActionHandler.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC95CC3311AFDBC8002309F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC95CC3B11AFDC0C002309F7 /* VObject.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB923208733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_GLIBCXX_DEBUG=1",
+					"_GLIBCXX_DEBUG_PEDANTIC=1",
+				);
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = swfparser;
+			};
+			name = Debug;
+		};
+		1DEB923308733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(NATIVE_ARCH)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-I/Users/rintarou/wxWidgets-2.8.11/build-release/lib/wx/include/mac-unicode-release-static-2.8",
+					"-I/Users/rintarou/wxWidgets-2.8.11/include",
+					"-I/Users/rintarou/wxWidgets-2.8.11/contrib/include",
+					"-D_FILE_OFFSET_BITS=64",
+					"-D_LARGE_FILES",
+					"-D__WXMAC__",
+					"-I/Users/rintarou/swfparser/include",
+				);
+				OTHER_LDFLAGS = "-lz";
+				PRODUCT_NAME = swfparser;
+			};
+			name = Release;
+		};
+		1DEB923608733DC60010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lz";
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB923708733DC60010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "-lz";
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		AC95CC3811AFDBC9002309F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = objtest;
+			};
+			name = Debug;
+		};
+		AC95CC3911AFDBC9002309F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = objtest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB923108733DC60010E9CD /* Build configuration list for PBXNativeTarget "swfparser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923208733DC60010E9CD /* Debug */,
+				1DEB923308733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB923508733DC60010E9CD /* Build configuration list for PBXProject "swfparser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB923608733DC60010E9CD /* Debug */,
+				1DEB923708733DC60010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC95CC3A11AFDBE7002309F7 /* Build configuration list for PBXNativeTarget "objtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC95CC3811AFDBC9002309F7 /* Debug */,
+				AC95CC3911AFDBC9002309F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
